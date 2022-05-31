@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type="module" src="./src/index.js"></script>
+  <link href="./styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div>
+    <strong>Решение задач:</strong><br />
+    <div id="task1">
+      <p class="paragraphText">
+        1.В переменных a и b хранятся числа. Написать программу, которая
+        выводит в консоль сумму этих чисел.
+      </p>
+      <label for="inpSumA" class="label">Введите число</label>
+      <input name="inpSumA" id="inpSumA" class="inp" />
+      <label for="inpSumB" class="label">Введите число</label>
+      <input name="inpSumB" id="inpSumB" class="inp" />
+      <button id="btnSum" class="btn">Решить</button>
+      <p id="p1" class="paragraph"></p>
+    </div>
+    <div id="task2">
+      <p class="paragraphText">
+        2.В переменных a и b хранятся числа. Написать программу, которая
+        выводит в консоль произведение чисел.
+      </p>
+      <label for="inpMulA" class="label">Введите число</label>
+      <input name="inpMulA" id="inpMulA" class="inp" />
+      <label for="inpMulB" class="label">Введите число</label>
+      <input name="inpMulB" id="inpMulB" class="inp" />
+      <button id="btnMul" class="btn">Решить</button>
+      <p id="p2" class="paragraph"></p>
+    </div>
+    <div id="task3">
+      <p class="paragraphText">
+        3.В двух переменных хранятся строки символов. Написать программу,
+        которая выведет в консоль суммарное количество символов в обоих
+        строках.
+      </p>
+      <label for="inp1SumChar" class="label">Введите строку</label>
+      <input name="inp1SumChar" id="inp1SumChar" class="inp" />
+      <label for="inp2SumChar" class="label">Введите строку</label>
+      <input name="inp2SumChar" id="inp2SumChar" class="inp" />
+      <button id="btnSumChar" class="btn">Решить</button>
+      <p id="p3" class="paragraph"></p>
+    </div>
+    <div id="task4">
+      <p class="paragraphText">
+        4. Написать программу, которая запрашивает у пользователя ввод
+        трёхзначного числа, а потом выводит в консоль сумму цифр введённого
+        числа.
+      </p>
+      <label for="inpSumInput" class="label">Введите трехзначное число</label>
+      <input name="inpSumInput" id="inpSumInput" class="inp" />
+      <button id="btnSumInput" class="btn">Решить</button>
+      <p id="p4" class="paragraph"></p>
+    </div>
+    <div id="task5">
+      <p class="paragraphText">
+        5. В переменных a и b хранятся числа. Вывести в консоль наибольшее из
+        них.
+      </p>
+      <label for="maxNumber1" class="label">Введите число</label>
+      <input name="maxNumber1" id="maxNumber1" class="inp" />
+      <label for="maxNumber2" class="label">Введите число</label>
+      <input name="maxNumber2" id="maxNumber2" class="inp" />
+      <button id="btnMaxNumber" class="btn">Решить</button>
+      <p id="p5" class="paragraph"></p>
+    </div>
+    <div id="task6">
+      <p class="paragraphText">
+        6. Запросить у пользователя ввод числа от 1 до 12. Вывести в консоль
+        название месяца, соответствующее этому числу (1 — январь, 2 — февраль
+        и т.д.)
+      </p>
+      <label for="getMonthes" class="label">Введите число от 1 до 12</label>
+      <input name="getMonthes" id="getMonthes" class="inp" />
+      <button id="btnGetMonthes" class="btn">Решить</button>
+      <p id="p6" class="paragraph"></p>
+    </div>
+    <div id="task7">
+      <p class="paragraphText">
+        7. В переменных circle и square хранятся площади круга и квадрата
+        соответственно. Написать программу, которая определяет, поместится ли
+        круг в квадрат.
+      </p>
+      <label for="circleSquare1" class="label">Введите площадь круга</label>
+      <input name="circleSquare1" id="circleSquare1" class="inp" />
+      <label for="circleSquare2" class="label">Введите площадь квадрата</label>
+      <input name="circleSquare2" id="circleSquare2" class="inp" />
+      <button id="btnСircleSquare" class="btn">Решить</button>
+      <p id="p7" class="paragraph"></p>
+    </div>
+    <div id="task8">
+      <p class="paragraphText">
+        8. Вывести в консоль сумму всех целых чисел от 50 до 100
+      </p>
+      <button id="btnSumWholeNumbers" class="btn">Решить</button>
+      <p id="p8" class="paragraph"></p>
+    </div>
+    <div id="task9">
+      <p class="paragraphText">9. Вывести в консоль таблицу умножения на 7</p>
+      <button id="btnMultiplicationTable" class="btn">Решить</button>
+      <p id="p9" class="paragraph"></p>
+    </div>
+    <div id="task10">
+      <p class="paragraphText">
+        10. Запросить у пользователя ввод числа N. Вывести в консоль среднее
+        арифметическое всех нечётных чисел от 1 до N.
+      </p>
+      <label for="arithmeticMean" class="label">Введите число</label>
+      <input name="arithmeticMean" id="arithmeticMean" class="inp" />
+      <button id="btnArithmeticMean" class="btn">Решить</button>
+      <p id="p10" class="paragraph"></p>
+    </div>
+    <div id="task11">
+      <p class="paragraphText">
+        11. Создайте объект user, содержащий поле name со значением ‘John’.
+      </p>
+      <p class="paragraphText">
+        1.Запросить у пользователя ввод числа. Записать введенное значение в
+        поле age объекта user.
+      </p>
+      <p class="paragraphText">
+        2.Создать копию объекта user с именем admin. Добавить новому объекту
+        поле role со значением ‘admin’.
+      </p>
+      <p class="paragraphText">
+        Записать все значения полей объекта admin в отдельные переменные.
+        Имена переменных должны совпадать с названиями полей.
+      </p>
+      <label for="objectTask" class="label">Введите число</label>
+      <input name="objectTask" id="objectTask" class="inp" />
+      <button id="btnObjectTask" class="btn">Решить</button>
+      <p id="p11" class="paragraph"></p>
+    </div>
+    <div id="task12">
+      <p class="paragraphText">
+        12. Создайте массив целых чисел из десяти элементов. Выведите в
+        консоль сумму всех элементов массива.
+      </p>
+      <p class="paragraphText">
+        Создайте новый массив на основе исходного, в котором
+      </p>
+      <p class="paragraphText">
+        каждый элемент будет вдвое больше элемента исходного массива с таким
+        же индексом.
+      </p>
+      <p class="paragraphText">
+        Найдите и выведите в консоль наибольший и наименьший элементы
+        исходного массива.
+      </p>
+      <button id="btnArrTask" class="btn">Решить</button>
+      <p id="p12" class="paragraph"></p>
+    </div>
+    <div id="task13">
+      <p class="paragraphText">
+        13. Напишите функцию diff, которая получает в качестве параметров 2
+        числа и возвращает разницу между наибольшим и наименьшим.
+      </p>
+      <label for="diff1" class="label">Введите число</label>
+      <input name="diff1" id="diff1" class="inp" />
+      <label for="diff2" class="label">Введите число</label>
+      <input name="diff2" id="diff2" class="inp" />
+      <button id="btnDiff" class="btn">Решить</button>
+      <p id="p13" class="paragraph"></p>
+    </div>
+    <div id="task14">
+      <p class="paragraphText">
+        14. Напишите функцию isWord, которая принимает на вход текстовую
+        строку.Функция возвращает true, если строка состоит из одного слова и
+        false, если из нескольких.
+      </p>
+      <label for="isWord" class="label">Введите строку</label>
+      <input name="isWord" id="isWord" class="inp" />
+      <button id="btnIsWord" class="btn">Решить</button>
+      <p id="p14" class="paragraph"></p>
+    </div>
+    <div id="task15">
+      <p class="paragraphText">
+        15. Напишите функцию pow(a, x), которая вернёт значение числа a,
+        возведённого в степень x.
+      </p>
+      <label for="pow1" class="label">Введите число</label>
+      <input name="pow1" id="pow1" class="inp" />
+      <label for="pow2" class="label">Введите степень</label>
+      <input name="pow2" id="pow2" class="inp" />
+      <button id="btnPow" class="btn">Решить</button>
+      <p id="p15" class="paragraph"></p>
+    </div>
+    <div id="task17">
+      <p class="paragraphText">
+        17. Запросите у пользователя дату в формате ДД.ММ.ГГГГ.Напишите
+        программу, выводящую день недели по введённой дате
+      </p>
+      <label for="getDayFromDate" class="label">Введите дату в формате DD.MM.YYYY</label>
+      <input name="getDayFromDate" id="getDayFromDate" class="inp" />
+      <button id="btnGetDayFromDate" class="btn">Решить</button>
+      <p id="p17" class="paragraph"></p>
+    </div>
+    <div id="task18">
+      <p class="paragraphText">
+        18. Написать программу, которая выводит в консоль количество минут,
+        прошедшее с начала сегодняшнего дня.
+      </p>
+      <button id="btnCountMinuts" class="btn">Решить</button>
+      <p id="p18" class="paragraph"></p>
+    </div>
+    <div id="task19">
+      <p class="paragraphText">
+        19. В двух переменных хранятся даты рождения двух пользователей в
+        формате ДД.ММ.ГГГГ.Написать программу, которая определяет более
+        молодого пользователя.
+      </p>
+      <label for="youngUser1" class="label">Введите дату в формате DD.MM.YYYY</label>
+      <input name="youngUser1" id="youngUser1" class="inp" />
+      <label for="youngUser2" class="label">Введите дату в формате DD.MM.YYYY</label>
+      <input name="youngUser2" id="youngUser2" class="inp" />
+      <button id="btnYoungUser" class="btn">Решить</button>
+      <p id="p19" class="paragraph"></p>
+    </div>
+    <div id="task20">
+      <p class="paragraphText">
+        20. Даны длины трёх сторон треугольника.Определить, является ли
+        треугольник прямоугольным.
+      </p>
+      <label for="a" class="label">Введите длину стороны треугольника a</label>
+      <input name="a" id="a" class="inp" />
+      <label for="b" class="label">Введите длину стороны треугольника b</label>
+      <input name="b" id="b" class="inp" />
+      <label for="c" class="label">Введите длину стороны треугольника c</label>
+      <input name="c" id="c" class="inp" />
+      <button id="btnIsRightTriangle" class="btn">Решить</button>
+      <p id="p20" class="paragraph"></p>
+    </div>
+    <div id="task21">
+      <p class="paragraphText">
+        21. Пользователь вводит число R.Написать программу, которая выведет в
+        консоль длину окружности и площадь круга с радиусом R.
+      </p>
+      <label for="r" class="label">Введите радиус окружности</label>
+      <input name="r" id="r" class="inp" />
+      <button id="btnCicleParams" class="btn">Решить</button>
+      <p id="p21" class="paragraph"></p>
+    </div>
+    <div id="task22">
+      <p class="paragraphText">
+        22. Пользователь вводит числа a, b и c.Написать программу, выводящую
+        корни квадратного уравнения с коэффициентами a, b и c.
+      </p>
+      <label for="A" class="label">Введите коэффициент уравнения a</label>
+      <input name="A" id="A" class="inp" />
+      <label for="B" class="label">Введите коэффициент уравнения b</label>
+      <input name="B" id="B" class="inp" />
+      <label for="C" class="label">Введите коэффициент уравнения c</label>
+      <input name="C" id="C" class="inp" />
+      <button id="btnEquation" class="btn">Решить</button>
+      <p id="p22" class="paragraph"></p>
+    </div>
+    <div id="task23">
+      <p class="paragraphText">
+        23. Пользователь вводит текстовую строку.Определить с помощью
+        регулярного выражения, является ли введённая строка: 1.Датой.
+        2.Адресом электронной почты. 3. * Номером телефона.
+      </p>
+      <label for="str" class="label">Введите str</label>
+      <input name="str" id="str" class="inp" />
+      <button id="btnIsDateEmailMsisdn" class="btn">Решить</button>
+      <p id="p23" class="paragraph"></p>
+    </div>
+  </div>
+  <div id="app"></div>
+</body>
+
+</html>
