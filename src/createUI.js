@@ -1,25 +1,25 @@
-import { summ } from "./summ.js"; // 1
-import { mul } from "./multiplication.js"; // 2
-import { sumChar } from "./sumChar.js"; // 3
-import { sumInp } from "./sumInput.js"; // 4
-import { maxNumber } from "./maxNumber.js"; // 5
-import { getMonthes } from "./getMonthes.js"; // 6
-import { circleSquare } from "./circleSquare.js"; // 7
-import { sumWholeNumbers } from "./sumWholeNumbers.js"; // 8
-import { multiplicationTable } from "./multiplicationTable.js"; // 9
-import { arithmeticMean } from "./arithmeticMean.js"; // 10
-import { objectTask } from "./objectTask.js"; // 11
-import { currentArr, minMaxArr } from "./arrTask.js"; // 12
-import { diffNumbers } from "./diffNumbers.js"; // 13
-import { isWord } from "./isWord.js"; // 14
-import { pow } from "./pow.js"; // 15
-import { getDayFromDate } from "./getDayFromDate.js"; // 17
-import { countMinuts } from "./countMinuts.js"; // 18
-import { youngUser } from "./youngUser.js"; // 19
-import { isRightTriangle } from "./isRightTriangle.js"; // 20
-import { circleParams } from "./circleParams.js"; // 21
-import { equation } from "./equation.js"; // 22
-import { isDateEmailMsisdn } from "./isDateEmailMsisdn.js"; // 23
+import { summ } from "./hw1/summ.js"; // 1
+import { mul } from "./hw1/multiplication.js"; // 2
+import { sumChar } from "./hw1/sumChar.js"; // 3
+import { sumInp } from "./hw1/sumInput.js"; // 4
+import { maxNumber } from "./hw2/maxNumber.js"; // 5
+import { getMonthes } from "./hw2/getMonthes.js"; // 6
+import { circleSquare } from "./hw2/circleSquare.js"; // 7
+import { sumWholeNumbers } from "./hw3/sumWholeNumbers.js"; // 8
+import { multiplicationTable } from "./hw3/multiplicationTable.js"; // 9
+import { arithmeticMean } from "./hw3/arithmeticMean.js"; // 10
+import { objectTask } from "./hw4/objectTask.js"; // 11
+import { currentArr, minMaxArr } from "./hw5/arrTask.js"; // 12
+import { diffNumbers } from "./hw6/diffNumbers.js"; // 13
+import { isWord } from "./hw6/isWord.js"; // 14
+import { pow } from "./hw6/pow.js"; // 15
+import { getDayFromDate } from "./hw8/getDayFromDate.js"; // 17
+import { countMinuts } from "./hw8/countMinuts.js"; // 18
+import { youngUser } from "./hw8/youngUser.js"; // 19
+import { isRightTriangle } from "./hw9/isRightTriangle.js"; // 20
+import { circleParams } from "./hw9/circleParams.js"; // 21
+import { equation } from "./hw9/equation.js"; // 22
+import { isDateEmailMsisdn } from "./hw10/isDateEmailMsisdn.js"; // 23
 
 export function createUI() {
   // 1 summ
@@ -246,27 +246,6 @@ export function createUI() {
     div.append(p);
     input1.value = "";
     input2.value = "";
-  });
-
-  // 16
-  document.getElementById("btnTask16").addEventListener("click", () => {
-    const div = document.getElementById("task16");
-
-    const input1 = document.getElementById("inputTask16");
-    const text = document.createElement("p");
-    text.className = "output";
-    text.innerText = input1.value;
-    div.append(text);
-    const p = document.querySelectorAll(".output");
-    if (p.length > 5) {
-      p[0].remove();
-    }
-    input1.value = "";
-  });
-
-  // 16
-  document.getElementById("task16").addEventListener("click", () => {
-    document.getElementById("btnTask16").hidden = false;
   });
 
   // 17 getDayFromDate
